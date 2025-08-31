@@ -7,7 +7,7 @@ interface CardProps {
 
 export function Card({ handle, img, text, title }: CardProps) {
   return (
-    <div className="border-3 border-gray-800 mt-10 w-60">
+    <div className="border-3 border-gray-200 mt-10 w-60 shadow-2xl shadow-gray-350 rounded-sm">
       <figure className="border-b-3 border-gray-800 w-full text-center">
         <img src={img} alt={title} className="mx-auto inline-block w-60" />
       </figure>
